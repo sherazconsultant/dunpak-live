@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import './globals.css';
 import { Inter } from 'next/font/google';
 
@@ -15,7 +16,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={inter.className + ' bg-dp-black'}>{children}</body>
+      <Head>
+        <script src='./js/lib.js' async></script>
+        <script src='./js/lib2.js' async></script>
+      </Head>
+      <body
+        className={
+          inter.className +
+          ' bg-dp-black leading-normal tracking-normal text-white gradient'
+        }
+      >
+        {children}
+      </body>
     </html>
   );
 }

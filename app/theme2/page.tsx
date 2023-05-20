@@ -38,7 +38,7 @@ export default function Home() {
                   className='inline-block py-2 px-4 text-black font-bold no-underline'
                   href='#'
                 >
-                  Active
+                  News
                 </a>
               </li>
               <li className='mr-3'>
@@ -46,7 +46,7 @@ export default function Home() {
                   className='inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4'
                   href='#'
                 >
-                  link
+                  Gallery
                 </a>
               </li>
               <li className='mr-3'>
@@ -54,7 +54,7 @@ export default function Home() {
                   className='inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4'
                   href='#'
                 >
-                  link
+                  Contact
                 </a>
               </li>
             </ul>
@@ -62,7 +62,7 @@ export default function Home() {
               id='navAction'
               className='mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out'
             >
-              Action
+              Sign in
             </button>
           </div>
         </div>
